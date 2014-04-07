@@ -3,7 +3,6 @@ FROM dmouse/puphpet
 
 MAINTAINER David Flores "dmousex@gmail.com"
 
-ADD ./www /var/www
 ADD ./ /vagrant
 
 RUN /vagrant/puphpet/shell/initial-setup.sh "/vagrant/puphpet"
